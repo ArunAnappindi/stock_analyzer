@@ -173,3 +173,10 @@ See `.env.example` for all configurable parameters. Key defaults:
 - Use `pytest` (add to requirements.txt)
 - Unit tests: `tests/unit/` - test individual components
 - Integration tests: `tests/integration/` - test full pipeline
+
+## Custom Agents
+When the user mentions "Jarvis" or asks Jarvis to review code:
+- Load instructions from `.agent/agents/jarvis.md`
+- Act as a code review specialist
+- Follow the review protocol defined in that file
+
