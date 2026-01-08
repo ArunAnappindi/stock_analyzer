@@ -1,0 +1,29 @@
+# Data fetching
+yfinance==0.2.36
+requests==2.32.3
+pandas==2.2.0
+numpy==1.26.4
+
+# Sentiment analysis
+newsapi-python==0.2.7
+beautifulsoup4==4.12.3
+feedparser==6.0.11
+textblob==0.18.0
+
+# Visualization
+plotly==5.18.0
+matplotlib==3.8.2
+
+# Configuration
+python-dotenv==1.0.1
+pyyaml==6.0.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# CLI interface
+click==8.1.7
+rich==13.7.0
+
+# Utilities
+pytz==2024.1
+cachetools==5.3.2

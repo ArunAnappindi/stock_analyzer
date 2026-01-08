@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b *.py)",
+      "Bash(findstr:*)",
+      "Bash(pip install:*)",
+      "Bash(pip index:*)",
+      "Bash(python main.py:*)",
+      "Bash(python:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
